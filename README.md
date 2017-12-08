@@ -4,4 +4,4 @@
 
 ![screenshot](https://raw.githubusercontent.com/hardskilled/montana/master/screenshot.png)
 
-[Hire us via Upwork!](https://www.upwork.com/o/companies/_~01b5cde52d5f4ead84/)
+[Hire us via Upwork!](https://www.upwork.com/o/companies/_~01b5cde52d5f4ead84/) | [Our website](https://hardskilled.com)
