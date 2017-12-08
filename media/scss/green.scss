@@ -1,0 +1,121 @@
+$color-scheme: rgb(0, 250, 0);
+$color-scheme-transparent: rgba(0, 250, 0, 0.9);
+$color-scheme-transparent-light: rgba(0, 250, 0, 0.7);
+
+a {
+  color: $color-scheme;
+}
+
+a:hover, a:focus {
+  color: $color-scheme-transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  span {
+    color: $color-scheme;
+  }
+}
+
+/*-------------------------------*/
+/*          Main menu            */
+/*-------------------------------*/
+
+header#main-menu {
+  .navbar {
+    .dropdown {
+      .dropdown-menu {
+        &.open {
+          a.dropdown-toggle {
+            color: $color-scheme;
+          }
+        }
+      }
+    }
+
+    .navbar-nav {
+      a:hover {
+        color: $color-scheme-transparent;
+      }
+
+      .active {
+        a {
+          color: $color-scheme;
+        }
+      }
+    }
+  }
+}
+
+/*-------------------------------*/
+/*           Sections            */
+/*-------------------------------*/
+
+section {
+  /*** - STATISTIC SECTION - ***/
+
+  &.statistic {
+    .count {
+      border-bottom: 4px solid $color-scheme;
+    }
+  }
+
+  /*** - SIGN SECTION - ***/
+
+  &.sign {
+    .main {
+      .nav-tabs {
+        border-bottom: 3px solid $color-scheme-transparent;
+
+        li {
+          a {
+            &:hover, &:focus {
+              background: $color-scheme-transparent-light;
+            }
+          }
+
+          &.active {
+            a {
+              background: $color-scheme-transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*-------------------------------*/
+/*           Buttons             */
+/*-------------------------------*/
+
+.btn {
+  &.btn-theme {
+    background: $color-scheme-transparent-light;
+
+    &:hover, &:focus {
+      background: $color-scheme-transparent;
+    }
+  }
+}
+
+/*-------------------------------*/
+/*             Form              */
+/*-------------------------------*/
+
+.form-control {
+  border-bottom: 2px solid $color-scheme-transparent-light;
+
+  &:focus {
+    border-color: $color-scheme;
+  }
+}
+
+/*-------------------------------*/
+/*          Progress             */
+/*-------------------------------*/
+
+.progress {
+  .progress-bar-theme {
+    background: $color-scheme-transparent;
+  }
+}

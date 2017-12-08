@@ -1,0 +1,57 @@
+a {
+  color: #fa0505; }
+
+a:hover, a:focus {
+  color: rgba(250, 5, 5, 0.9); }
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  color: #fa0505; }
+
+/*-------------------------------*/
+/*          Main menu            */
+/*-------------------------------*/
+header#main-menu .navbar .dropdown .dropdown-menu.open a.dropdown-toggle {
+  color: #fa0505; }
+header#main-menu .navbar .navbar-nav a:hover {
+  color: rgba(250, 5, 5, 0.9); }
+header#main-menu .navbar .navbar-nav .active a {
+  color: #fa0505; }
+
+/*-------------------------------*/
+/*           Sections            */
+/*-------------------------------*/
+section {
+  /*** - STATISTIC SECTION - ***/
+  /*** - SIGN SECTION - ***/ }
+  section.statistic .count {
+    border-bottom: 4px solid #fa0505; }
+  section.sign .main .nav-tabs {
+    border-bottom: 3px solid rgba(250, 5, 5, 0.9); }
+    section.sign .main .nav-tabs li a:hover, section.sign .main .nav-tabs li a:focus {
+      background: rgba(250, 5, 5, 0.7); }
+    section.sign .main .nav-tabs li.active a {
+      background: rgba(250, 5, 5, 0.9); }
+
+/*-------------------------------*/
+/*           Buttons             */
+/*-------------------------------*/
+.btn.btn-theme {
+  background: rgba(250, 5, 5, 0.7); }
+  .btn.btn-theme:hover, .btn.btn-theme:focus {
+    background: rgba(250, 5, 5, 0.9); }
+
+/*-------------------------------*/
+/*             Form              */
+/*-------------------------------*/
+.form-control {
+  border-bottom: 2px solid rgba(250, 5, 5, 0.7); }
+  .form-control:focus {
+    border-color: #fa0505; }
+
+/*-------------------------------*/
+/*          Progress             */
+/*-------------------------------*/
+.progress .progress-bar-theme {
+  background: rgba(250, 5, 5, 0.9); }
+
+/*# sourceMappingURL=red.css.map */
